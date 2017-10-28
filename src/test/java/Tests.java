@@ -1,4 +1,4 @@
-import org.junit.Assert;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.WhitePapersPage;
 
@@ -8,7 +8,7 @@ import pages.WhitePapersPage;
 public class Tests extends BaseTest {
 
     @Test
-    private void fillForm() {
+    private void fillFormTest() {
         boolean formIsEnteredCorrectly = new WhitePapersPage(driver)
                 .clickFirstWhitePaper()
                 .goToForm()
