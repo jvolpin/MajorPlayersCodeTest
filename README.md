@@ -9,6 +9,3 @@ In order to run, clone the directory and run "mvn clean test"
 
 Caveat:
 There is a bug in the page that randomly causes the first arrow not to be clickable.
-
-
-NOOOO ESTAMOS EN LA BRANCH
